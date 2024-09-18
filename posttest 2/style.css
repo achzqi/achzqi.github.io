@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-color: #c7c7c7;
+
+
+}
+
+
+
+
+.container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px auto;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+.thks{
+    margin-left: 40px;
+
+
+}
+.boxt{
+    margin-left: 40px;
+
+
+}
+
+
+.boxleft{
+    width: 50%;
+    height: auto;
+    
+
+}
+
+.boxleft img{
+    margin: 40px;
+    margin-top: 60px;
+    border-radius: 100px;
+
+
+}
+
+.boxright{
+    width: 50%;
+    height: auto;
+    
+}
+
+.boxright .box {
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    margin: 50px;
+    width: 70%;
+    height: 75%;
+    overflow-y: scroll;
+}
+
+.boxright .box .boxi{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.boxright .box .boxi p{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.harga{
+    font-size: 10px;
+}
+
+
+.boxright .box .boxi .boxin input{
+    margin-left: 10px;
+
+}
+
+
+.boxright .box .boxi img{
+
+    max-width: 20%;
+    height: auto;
+}
+
+.boxfee{
+    margin-top: -40px;
+    margin-left: 50px;
+    width: 70%;
+    height: 10%;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.boxfee p{
+ margin-top: -15px;
+margin-left: 21px;
+
+}
