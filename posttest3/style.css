@@ -1,0 +1,348 @@
+ /* Styling umum untuk body */
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    }
+    
+/* Styling untuk navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #347928;
+    padding: 10px 20px;
+    width: 100%;
+   
+    
+    }
+    
+/* Styling untuk logo */
+.navbar .logo img {
+    height: 100px;
+    padding-bottom: 10px;
+    }
+    
+/* Styling untuk link navigasi */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+.navbar ul li {
+    padding-right: 20px;
+    padding-left: 10px;
+    }
+
+
+    
+.navbar ul li a {
+    color: #FCCD2A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+    transition-duration: 700ms;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    
+.navbar ul li a:hover {
+    border-bottom: 1px solid white;
+    color: white;
+    }
+
+/* responsive */
+@media (max-width: 768px) {
+.navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+.navbar ul {
+    flex-direction: column;
+    width: 100%;
+}
+    
+.navbar ul li {
+    width: 100%;
+}
+    
+.navbar ul li a {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+.block{
+    width: 650px;
+    border-radius: 10px;
+    background-color: #FCCD2A;
+    margin-top: 25px;
+    overflow: hidden;
+    display: flex;
+}
+.block .block0{
+    width: auto;
+}
+
+.block .block1{
+    width: auto;
+
+}
+
+.block .block0 h2{
+    font-size: 10px;
+    color: white;
+
+}
+
+.block .block0 p{
+    margin-top: -30px;
+    font-size: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.block .block1 img{
+   margin-top: -40px;
+   width: auto;
+}
+    }
+/* responsive*/
+
+/* .gapnav{
+    height: 140px;
+    background-color: aliceblue;
+
+} */
+
+.block{
+
+    width: 70%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: #FCCD2A;
+    margin-top: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.block .block0{
+    width: 40%;
+    float: left;
+}
+
+.block .block1{
+    width: 40%;
+    float: right;
+}
+
+.block .block0 h2{
+    padding-left: 25px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.block .block0 p{
+    margin-top: -30px;
+    padding-left: 25px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.block .block1 img{
+   margin-top: -40px;
+}
+
+
+ /* Style button */
+ .btn-adopt {
+    background-color: #347928; 
+    color: white;
+    padding: 12px 24px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer; 
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-adopt:hover {
+    background-color: #18570d; 
+    color: #FCCD2A;
+}
+
+.btn-adopt i {
+    margin-right: 8px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.image-right {
+    float: right; 
+    width: 300px; 
+    height: auto; 
+    margin: 0 0 20px 20px; 
+    background-color: #FCCD2A;
+    border-radius: 10px;
+}
+
+.list_cara {
+    text-align: justify; 
+    font-family:Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.list_cara h3{
+    color: #18570d; 
+}
+
+.list_cara li {
+    color: #18570d;
+}
+
+
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+
+/* laman kucing */
+
+.content{
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.adopsi-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FCCD2A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.adopsi-btn:hover {
+    background-color: #18570d;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.btnd {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #18570d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+btnd:hover {
+    background-color: #555;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: white;   
+}
+
+body.dark-mode li,
+body.dark-mode h3,
+body.darkmode li b{
+    color: white;
+}
+
+body.dark-mode .btnd {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode .btnd:hover {
+    background-color: #ccc;
+}
+
+body.dark-mode .navbar{
+    background-color: white;
+}
+
+body.dark-mode .block{
+    background-color: white;
+}
+body.dark-mode .block .block0 h2,
+body.dark-mode .block .block0 p{
+    color: black;
+}
+
+body.dark-mode .image-right{
+    background-color: white;
+}
+
+body.dark-mode .block .block0 a {
+    background-color: black;
+}
