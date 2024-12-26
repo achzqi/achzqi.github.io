@@ -183,6 +183,15 @@ nav ul.nav-list li a:hover {
         margin: 10px 0;
         /* Spasi antar item */
     }
+
+    .article-sect {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-box {
+        max-width: 250px;
+    }
+    
 }
 
 
