@@ -180,6 +180,8 @@ nav ul.nav-list li a:hover {
         margin: 10px 0;
         /* Spasi antar item */
     }
+
+
 }
 
 
@@ -308,6 +310,10 @@ nav ul.nav-list li a:hover {
 
     #adva4 {
         margin-top: -15px;
+    }
+
+    .search-box {
+        margin-top: 100px;
     }
 
 }
