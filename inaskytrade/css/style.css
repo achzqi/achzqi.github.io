@@ -183,15 +183,6 @@ nav ul.nav-list li a:hover {
         margin: 10px 0;
         /* Spasi antar item */
     }
-
-    .article-sect {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .search-box {
-        max-width: 250px;
-    }
-    
 }
 
 
@@ -508,48 +499,24 @@ nav ul.nav-list li a:hover {
         grid-template-columns: repeat(3, 1fr);
         /* Tiga kolom pada layar lebih kecil */
     }
+
+    .article-title {
+        font-size: 1.2rem;
+    }
 }
 
-@media (max-width: 1100px) {
-    .recipe-section {
+@media (max-width: 800px) {
+    .article-sect {
         grid-template-columns: repeat(2, 1fr);
-        /* Dua kolom pada layar lebih kecil */
-    }
 
-    .advantage-sect {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .search-box {
-        max-width: 250px;
     }
 
     .article-title {
         font-size: 1.0rem;
     }
-   
+
+
 }
-
-@media (max-width: 900px) {
-    .recipe-section {
-        grid-template-columns: repeat(2, 1fr);
-        /* Dua kolom pada layar lebih kecil */
-    }
-
-    .advantage-sect {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .search-box {
-        max-width: 250px;
-    }
-
-    .article-title {
-        font-size: 1.0rem;
-    }
-   
-}
-
 
 @media (max-width: 600px) {
     .recipe-section {
@@ -573,27 +540,22 @@ nav ul.nav-list li a:hover {
         margin-top: -15px;
     }
 
+    .article-sect {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
 }
 
 @media (max-width: 400px) {
     .recipe-section {
-        grid-template-columns: repeat(2, 1fr);
-        /* Dua kolom pada layar lebih kecil */
-    }
-
-    .advantage-sect {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1 fr;
+        /* Satu kolom pada layar kecil */
     }
 
     .search-box {
-        max-width: 250px;
+        max-width: 100px;
     }
-
-    .article-title {
-        font-size: 0.9rem;
-    }
-   
-
 }
 
 .recipe-card {
