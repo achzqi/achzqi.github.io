@@ -216,7 +216,7 @@ nav ul.nav-list li a:hover {
 }
 
 .search-box {
-    max-width: 250px;
+    max-width: 500px;
     margin: 15px auto;
     display: flex;
     align-items: center;
@@ -225,7 +225,7 @@ nav ul.nav-list li a:hover {
 }
 
 .search-box input {
-    width: 1000px;
+    width: 500px;
     padding: 10px;
     outline: none;
     border: 0;
