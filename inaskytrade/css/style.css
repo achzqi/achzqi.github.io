@@ -577,9 +577,23 @@ nav ul.nav-list li a:hover {
 
 @media (max-width: 400px) {
     .recipe-section {
-        grid-template-columns: fr;
-        /* Satu kolom pada layar kecil */
+        grid-template-columns: repeat(2, 1fr);
+        /* Dua kolom pada layar lebih kecil */
     }
+
+    .advantage-sect {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-box {
+        max-width: 250px;
+    }
+
+    .article-title {
+        font-size: 0.9rem;
+    }
+   
+
 }
 
 .recipe-card {
