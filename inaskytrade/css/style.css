@@ -501,6 +501,38 @@ nav ul.nav-list li a:hover {
     }
 }
 
+@media (max-width: 1000px) {
+    .recipe-section {
+        grid-template-columns: repeat(2, 1fr);
+        /* Dua kolom pada layar lebih kecil */
+    }
+
+    .advantage-sect {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-box {
+        max-width: 250px;
+   
+}
+    
+@media (max-width: 1000px) {
+    .article-sect {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .article-title {
+        font-size: 1.0rem;
+    }
+
+    .search-box {
+        max-width: 250px;
+    }
+}
+
+
+
 @media (max-width: 600px) {
     .recipe-section {
         grid-template-columns: repeat(2, 1fr);
