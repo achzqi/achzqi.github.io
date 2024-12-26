@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #ebfff1;
+}
+
+.articles {
+    padding: 50px 0;
+}
+
+.articles h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    margin-top: 37px;
+}
+
+.article-sect {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+    position: relative;
+    /* Pastikan posisi relatif hanya di elemen ini */
+}
+
+.article {
+    position: relative;
+    width: 100%;
+    /* Sesuaikan dengan lebar card */
+    height: 200px;
+    overflow: hidden;
+    /* Hanya elemen ini yang menggunakan overflow */
+}
+
+.article-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Agar gambar proporsional */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    /* Awalnya setengah foto */
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.3s ease;
+    /* Animasi hover */
+}
+
+.article-card:hover .overlay {
+    height: 100%;
+    /* Penuhi foto saat hover */
+}
+
+.article-title {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.search-box {
+    max-width: 500px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-box input {
+    width: 1000px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: 1px solid #000000;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 5px;
+    font-size: 1rem;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.search-box button:hover {
+    background: linear-gradient(45deg, #35bd82, #198556);
+    /* Gradasi warna */
+    color: #000;
+    transform: scale(1.1);
+    /* Sedikit perbesar tombol */
+    box-shadow: 0 4px 15px rgba(53, 189, 130, 0.778);
+    /* Tambahkan bayangan */
+}
+
+@media (max-width: 1200px) {
+    .article-sect {
+        grid-template-columns: repeat(3, 1fr);
+        /* Tiga kolom pada layar lebih kecil */
+    }
+
+    .search-box {
+        max-width: 300px;
+    }
+
+    .article-title {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .article-sect {
+        grid-template-columns: repeat(2, 1fr);
+        /* Dua kolom pada layar lebih kecil */
+    }
+
+    .article-title {
+        font-size: 0.9rem;
+    }
+
+}
