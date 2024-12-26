@@ -515,6 +515,10 @@ nav ul.nav-list li a:hover {
         font-size: 1.0rem;
     }
 
+    body {
+        background-color: lightblue;
+    }
+
 
 }
 
