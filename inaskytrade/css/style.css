@@ -514,12 +514,6 @@ nav ul.nav-list li a:hover {
     .article-title {
         font-size: 1.0rem;
     }
-
-    body {
-        background-color: lightblue;
-    }
-
-
 }
 
 @media (max-width: 600px) {
