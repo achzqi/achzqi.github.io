@@ -182,6 +182,7 @@ nav ul.nav-list li a:hover {
     }
 
 
+
 }
 
 
@@ -226,7 +227,7 @@ nav ul.nav-list li a:hover {
 }
 
 .search-box input {
-    width: 1000px;
+    width: 100%;
     padding: 10px;
     outline: none;
     border: 0;
