@@ -514,6 +514,10 @@ nav ul.nav-list li a:hover {
     .article-title {
         font-size: 1.0rem;
     }
+
+    .search-box {
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -552,7 +556,7 @@ nav ul.nav-list li a:hover {
     }
 
     .search-box {
-        max-width: 100px;
+        max-width: 150px;
     }
 }
 
