@@ -225,7 +225,7 @@ nav ul.nav-list li a:hover {
 }
 
 .search-box input {
-    width: 500px;
+    width: 100%;
     padding: 10px;
     outline: none;
     border: 0;
@@ -515,9 +515,7 @@ nav ul.nav-list li a:hover {
         font-size: 1.0rem;
     }
 
-    .search-box {
-        max-width: 250px;
-    }
+
 }
 
 @media (max-width: 600px) {
@@ -556,7 +554,7 @@ nav ul.nav-list li a:hover {
     }
 
     .search-box {
-        max-width: 150px;
+        max-width: 100px;
     }
 }
 
