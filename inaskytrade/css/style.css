@@ -225,7 +225,7 @@ nav ul.nav-list li a:hover {
 }
 
 .search-box input {
-    width: 100%;
+    width: 1000px;
     padding: 10px;
     outline: none;
     border: 0;
@@ -531,7 +531,14 @@ nav ul.nav-list li a:hover {
     .search-box {
         max-width: 250px;
     }
+    .search-box {
+        max-width: 250px;
+    }
 
+    .search-box input {
+        width: 100%;
+    }
+    
     #adva1 {
         margin-top: -2px;
     }
