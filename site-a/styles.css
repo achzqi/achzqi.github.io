@@ -1,0 +1,133 @@
+body {
+    font-family: poppins;
+}
+
+ nav a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    color: #64b8d6;
+    transition: all 0.3s ease-in-out;
+   border-radius: 5px 30px 30px 30px;
+    
+ }
+
+ nav li{
+    list-style: none;
+ }
+
+ footer {
+    padding: 20px;
+    background-color: #64b8d6;
+    color: white;
+ }
+
+ .logo img{
+    width: 150px;
+ }
+
+ header{
+    display: flex;
+    align-items: center;
+ }
+
+ nav ul{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+ }
+
+nav a:hover{
+   color: white;
+   background-color: #64b8d6;
+ }
+
+.jumbo img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    
+ }
+
+ .content{
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    flex: 2;
+    padding: 20px;
+ }
+
+ .MAP{
+    max-width: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+.funfact{
+      list-style: none;
+      padding: 0;
+ }
+
+.sejarahimg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px -120px;
+}
+
+.wahanaimg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px -60px;
+}
+
+.wildlifeimg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px -120px;
+}
+ 
+aside{
+   background-color: azure;
+   padding: 15px;
+   border-radius: 10px;
+   height: fit-content;
+}
+
+h2{
+   margin: 0px;
+}
+
+footer{
+   text-align: center;
+}
+
+@media screen and (max-width: 768px){
+   .content{
+      flex-direction: column;
+   }
+
+   nav ul{
+      gap: 0px;
+      margin-left: 0px;
+      margin-bottom: 40px;
+      padding: 0px;
+   }
+
+   header{
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   .MAP{
+      max-width: 100%;
+   }
+
+   .sejarahimg, .wahanaimg, .wildlifeimg{
+      object-position: center;
+
+   }
+}
