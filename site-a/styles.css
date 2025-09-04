@@ -1,5 +1,8 @@
+html{
+   scroll-behavior : smooth
+}
 body {
-    font-family: poppins;
+    font-family: poppins, sans-serif;
 }
 
  nav a{
@@ -102,7 +105,14 @@ h2{
 }
 
 footer{
+   width: 100%;
    text-align: center;
+   margin-bottom: 0px;
+   padding: 5px;
+}
+
+.container{
+   padding: 20px;
 }
 
 @media screen and (max-width: 768px){
@@ -130,4 +140,9 @@ footer{
       object-position: center;
 
    }
+}
+
+.tile{
+   color: white;
+   font-size: 10px;
 }
