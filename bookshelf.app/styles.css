@@ -209,8 +209,11 @@ body {
     .bookIncompleteSection, .bookCompleteSection {
         width: 85%;
     }
-    
+    .btnComplete, .btnEdit, .btnDellete {
+        width: 70px;
+    }
 }
 
 /* achmad zidan al baihaqi */
+
 /* f269d5y0031 */
