@@ -1,0 +1,216 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.tittle {
+    text-align: center;
+    color: #134686;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+
+
+
+/* inputsection */
+.inputSection {
+    background-color: #FFF2E0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 75%;
+    color: #6D94C5;
+}
+
+.inputSection h2 {
+    color: #898AC4;
+}
+
+.BFT, .BFA, .BFY{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#bookFormTitle, #bookFormAuthor, #bookFormYear {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submitButton {
+    margin-top: 10px;
+    background-color: #898AC4;
+    color: #FDF4E3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    transition: all 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #0d3561;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* search */
+.searchSection {
+    color: #6D94C5;
+    background-color: #FFF2E0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 29%;
+    height: fit-content;
+}
+
+.searchSection h2 {
+    color: #898AC4;
+}
+
+#searchBookTitle {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#searchSubmit{
+    background-color: #898AC4;
+    color: #FDF4E3;
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: right;
+}
+
+#searchSubmit:hover {
+    background-color: #0d3561;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* incomplete section */
+.bookIncompleteSection {
+    background-color: #FFF2E0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 65%;
+}
+
+.bookIncompleteSection h2{
+    color: #898AC4;
+}
+
+
+/* list book */
+.incompleteBookList, .completeBookList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* complete section */
+.bookCompleteSection {
+    background-color: #FFF2E0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 65%;
+}
+
+.bookCompleteSection h2{
+    color: #898AC4;
+}
+
+/* book card */
+.bookCard {
+    color: #134686;
+    background-color: #FFD6BA;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+/* btn CRUD */
+
+.btnComplete {
+    background-color: #898AC4;
+    color: #FDF4E3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+
+.btnComplete:hover {
+    background-color: #5c5ebd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.btnEdit {
+    background-color: #6D94C5;
+    color: #FDF4E3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+
+.btnEdit:hover {
+    background-color: #4b78b0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.btnDellete {
+    background-color: #E07C7C;
+    color: #FDF4E3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+
+.btnDellete:hover {
+    background-color: #c75a5a;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+@media screen and (max-width: 768px) {
+    .topContainer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .inputSection, .searchSection {
+        width: 100%;
+    }
+
+    .bookIncompleteSection, .bookCompleteSection {
+        width: 85%;
+    }
+    
+}
+
+/* achmad zidan al baihaqi */
+/* f269d5y0031 */
