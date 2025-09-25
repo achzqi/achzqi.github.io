@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sport Club App</title>
+
+    <!-- Own Styles -->
+    <link rel="icon" href="/clubs-finder-app/src/public/favicon.png" sizes="512x512" />
+
+    <!-- Favicons -->
+    <link rel="stylesheet" href="/clubs-finder-app/src/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="app-bar">
+        <h1 class="brand-name">Sport Club Finder</h1>
+      </div>
+    </header>
+
+    <main>
+      <div id="searchBarContainer" class="search-bar-container">
+            <div class="floating-form">
+              <form id="searchForm" class="search-form">
+                <div class="form-group">
+                <input id="name" name="name" type="search" required />
+                <label for="name">Sport club's name</label>
+              </div>
+                <button>Search</button>
+              </form>
+            </div>
+          </div>
+      <div class="container">
+        <section id="club" class="club">
+          <div class="title-section">
+            <h2>Sport Club List</h2>
+          </div>
+
+          <div id="clubListContainer" class="club-list-container">
+            <div class="placeholder query-waiting">Waiting for search keyword</div>
+            <div class="placeholder search-loading">Loading</div>
+
+            <div id="clubList" class="club-list">
+              <div class="list"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+          <div id="clubListContainer" class="club-list-container">
+            <!-- ...kode lainnya disembunyikan... -->
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="main-footer">Club Finder &copy; 2023</div>
+      </div>
+    </footer>
+
+    <script type="module" src="../clubs-finder-app/src/app.js"></script>
+  </body>
+</html>
