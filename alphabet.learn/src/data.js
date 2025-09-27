@@ -92,7 +92,7 @@ const alphabets = [
     },
     examples: [
       {
-        img: '/src/images/elephant.png',
+        img: './src/images/elephant.png',
         title: 'Gajah',
       },
     ],
@@ -364,3 +364,4 @@ const alphabets = [
     ],
   },
 ];
+
