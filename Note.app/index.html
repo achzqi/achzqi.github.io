@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note.apps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Baloo+Bhaijaan+2:wght@400..800&family=Lexend:wght@100..900&family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<script defer src="bundle.js"></script></head>
+<body>
+    <header>
+        <my-nav></my-nav>
+    </header>
+    <main>
+        <form action="">
+            <my-input id="judul"></my-input>
+            <my-input id="desc" type="textarea"></my-input>
+        </form>
+        <button id="saveBtn" class="saveBtn">Post Notes</button>
+        <p id="usernameValidation" class="validation-message" aria-live="polite"></p>
+        
+    </main>
+    <aside>
+        <div class="contCard">
+            <div class="noteCard">
+                <h2>This is my note</h2>
+                <p>ini adalah catatan yang saya buat untuk sebuah dummy</p>
+                <button class="hpsNote">Hapus Note</button>
+            </div>
+        </div>
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>loading notes</p></div>
+    </aside>
+    <footer>
+        <my-footer></my-footer>
+    </footer>
+</body>
+</html>
